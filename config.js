@@ -16,7 +16,7 @@ const DEBUG = convertToBool(process.env.DEBUG, 'true');
 
 module.exports = {
   VERSION: 'v4.4.6',
-  SESSION_ID: 'HP_2025_AUG_25_NYDCVC',
+  SESSION_ID: 'HP_2025_AUG_26_MR3ZAW',
   MODE: (process.env.MODE || 'public').toLowerCase(),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   SEND_READ: toBool(process.env.READ_COMMAND),
@@ -68,3 +68,4 @@ module.exports = {
   DEBUG: DEBUG
 
 };
+
